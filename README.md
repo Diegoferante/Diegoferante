@@ -7,6 +7,7 @@
 <!-- Presentation -->
 <p>
   Hi 👋, I'm Diego!     
+  
   - 🌱<img width="1052" height="297" src="https://bkpsitecpsnew.blob.core.windows.net/uploadsitecps/sites/126/2024/06/logo_etec_matao.png" class="custom-logo" alt="Etec Sylvio de Mattos Carvalho" decoding="async" fetchpriority="high">
 
   - 🔭I'm looking to learn how to develop a system to enter the job market in the future
@@ -62,6 +63,5 @@
     <img align="center" alt="Seaborn" src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40"/>
     <img align="center" alt="Scikit-learn" src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/>
   </div>
-<img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/9bc27292880429.5e569ff84e4d0.gif" jsaction="" class="sFlh5c FyHeAf iPVvYb" style="max-width: 1400px; height: 198px; margin: 0px; width: 351px;" alt="ROG Wallpaper Design (2) | GIFs :: Behance" jsname="kn3ccd">
 
-<img src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/223e6792880429.5e569ff84ebef.gif" jsaction="" class="sFlh5c FyHeAf iPVvYb" style="max-width: 600px; height: 198px; margin: 0px; width: 351px;" alt="ROG Wallpaper Design (3) | GIFs :: Behance" jsname="kn3ccd">
+
