@@ -1,4 +1,4 @@
-<!D<!--título-->
+<!D<!--título--> 
 <div id="user-content-toc">
   <ul align="center">
     <summary><h1 style="display: inline-block">Hello World</h1></summary>
@@ -6,8 +6,7 @@
 
 <!-- Presentation -->
 <p>
-  Hi 👋, I'm Diego!     
-  
+  Hi 👋, I'm Diego!    
   - 🌱<img width="1052" height="297" src="https://bkpsitecpsnew.blob.core.windows.net/uploadsitecps/sites/126/2024/06/logo_etec_matao.png" class="custom-logo" alt="Etec Sylvio de Mattos Carvalho" decoding="async" fetchpriority="high">
 
   - 🔭I'm looking to learn how to develop a system to enter the job market in the future
@@ -63,5 +62,4 @@
     <img align="center" alt="Seaborn" src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40"/>
     <img align="center" alt="Scikit-learn" src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/>
   </div>
-
 
