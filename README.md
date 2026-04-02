@@ -87,3 +87,42 @@
       <p>Velocidade e confiança em cada entrega</p>
       <p>Chama no WhatsApp: (16) 99625-3699</p>
     </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r140/three.min.js"></script>
+    <script>
+      // Cena e câmera
+      const scene = new THREE.Scene();
+      const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+      camera.position.z = 5;
+
+      // Renderizador
+      const renderer = new THREE.WebGLRenderer({ antialias: true });
+      renderer.setSize(window.innerWidth, window.innerHeight);
+      document.body.appendChild(renderer.domElement);
+
+      // Textura do caminhão
+      const loader = new THREE.TextureLoader();
+      loader.load('CAMINHAO_IMAGE_PATH', function (texture) {
+        const geometry = new THREE.PlaneGeometry(3, 1.5);
+        const material = new THREE.MeshBasicMaterial({ map: texture });
+        const plane = new THREE.Mesh(geometry, material);
+        scene.add(plane);
+
+        // Animação: movimento do caminhão
+        function animate() {
+          plane.position.x += 0.02;
+          if (plane.position.x > 5) plane.position.x = -5;
+          renderer.render(scene, camera);
+          requestAnimationFrame(animate);
+        }
+        animate();
+      });
+
+      // Responsividade
+      window.addEventListener('resize', () => {
+        camera.aspect = window.innerWidth / window.innerHeight;
+        camera.updateProjectionMatrix();
+        renderer.setSize(window.innerWidth, window.innerHeight);
+      });
+    </script>
+  </body>
+</html>
