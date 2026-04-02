@@ -67,8 +67,10 @@
         const material = new THREE.MeshBasicMaterial({ map: texture });
         const plane = new THREE.Mesh(geometry, material);
         scene.add(plane);
+        </div>
 
-               // Animação: movimento do caminhão
+   <!-- Skills: Libraries -->
+        // Animação: movimento do caminhão
         function animate() {
           plane.position.x += 0.02;
           if (plane.position.x > 5) plane.position.x = -5;
