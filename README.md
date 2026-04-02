@@ -59,24 +59,31 @@
     <img align="center" alt="Seaborn" src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40"/>
     <img align="center" alt="Scikit-learn" src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/>
   </div>
-   <!-- Skills: Libraries -->
-  // Textura do caminhão
-      const loader = new THREE.TextureLoader();
-      loader.load('CAMINHAO_IMAGE_PATH', function (texture) {
-        const geometry = new THREE.PlaneGeometry(3, 1.5);
-        const material = new THREE.MeshBasicMaterial({ map: texture });
-        const plane = new THREE.Mesh(geometry, material);
-        scene.add(plane);
-        </div>
-
-   <!-- Skills: Libraries -->
-        // Animação: movimento do caminhão
-        function animate() {
-          plane.position.x += 0.02;
-          if (plane.position.x > 5) plane.position.x = -5;
-          renderer.render(scene, camera);
-          requestAnimationFrame(animate);
-        }
-        animate();
-      });
-        </div>
+ <!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Metal Express - Animação 3D</title>
+    <style>
+      body {
+        margin: 0;
+        overflow: hidden;
+        background-color: black;
+      }
+      #info {
+        position: absolute;
+        top: 20px;
+        width: 100%;
+        text-align: center;
+        color: lime;
+        font-family: Arial, sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="info">
+      <h1>Metal Express</h1>
+      <p>Velocidade e confiança em cada entrega</p>
+      <p>Chama no WhatsApp: (16) 99625-3699</p>
+    </div>
