@@ -94,12 +94,14 @@
       const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
       camera.position.z = 5;
 
-        Renderizador
+         </body>
+</html> Renderizador
       const renderer = new THREE.WebGLRenderer({ antialias: true });
       renderer.setSize(window.innerWidth, window.innerHeight);
       document.body.appendChild(renderer.domElement);
 
-        Textura do caminhão
+       </body>
+</html>   Textura do caminhão
       const loader = new THREE.TextureLoader();
       loader.load('CAMINHAO_IMAGE_PATH', function (texture) {
         const geometry = new THREE.PlaneGeometry(3, 1.5);
@@ -107,7 +109,8 @@
         const plane = new THREE.Mesh(geometry, material);
         scene.add(plane);
 
-        // Animação: movimento do caminhão
+         </body>
+</html> // Animação: movimento do caminhão
         function animate() {
           plane.position.x += 0.02;
           if (plane.position.x > 5) plane.position.x = -5;
@@ -117,7 +120,8 @@
         animate();
       });
 
-      // Responsividade
+      </body>
+</html>  // Responsividade
       window.addEventListener('resize', () => {
         camera.aspect = window.innerWidth / window.innerHeight;
         camera.updateProjectionMatrix();
